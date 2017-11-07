@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
 import com.lsw.rx2retrofit.module.ElementaryFragment;
+import com.lsw.rx2retrofit.module.ImageMapFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -33,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
                 switch (position) {
                     case 0:
                         return new ElementaryFragment();
-//                    case 1:
-//                        return new MapFragment();
+                    case 1:
+                        return new ImageMapFragment();
 //                    case 2:
 //                        return new ZipFragment();
 //                    case 3:
